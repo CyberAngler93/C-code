@@ -1,0 +1,15 @@
+score: 8/10
+comments:
+
+1) compiles, but I get a core dump when trying to run the binary:
+
+malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+Aborted (core dumped)
+
+to fix, in constructor change 
+*(_p+userNumber) = 0;
+to
+*(_p+i) = 0;
+
+2) using wrong form of 'delete' in destructor, need 'delete []'.
+3) main() needs some commments.

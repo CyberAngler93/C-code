@@ -1,0 +1,6 @@
+score: 9.8/10
+comments:
+
+Good. Just need to change the code slightly for item 1), which was
+to show that a static *local* variable (not global), keeps its value 
+between calls to the *function* it is in.

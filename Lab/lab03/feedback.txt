@@ -1,0 +1,6 @@
+score: 9.8/10
+comments:
+
+OK as far as you interpretted it, but the original intent was to capture 
+a line of text from the user, rather than pick an existing one from the file.
+

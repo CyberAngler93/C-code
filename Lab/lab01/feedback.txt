@@ -1,0 +1,6 @@
+score: 10/10
+comments:
+
+Good, but needs comments, and it would be nice to test your vector
+with a loop that print something from each object.
+
