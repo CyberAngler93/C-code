@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1512092413 source:c:\users\pearl\desktop\decipherproject\decipher\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+
